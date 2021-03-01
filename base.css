@@ -11,9 +11,10 @@
   header {
     text-align: center;
     width: 100%;
-    border: 2px solid gray;
+    border: 1px solid #9f9bac;
+    border-radius: 2px;
     padding: 10px;
-    background-color: whitesmoke;
+    background-color:#f6f6f6;
     position: fixed;
     top:0;
     
@@ -22,16 +23,16 @@
   nav ul {
     list-style: none;
     margin: 0;
- 
   }
   
   nav li {
     display: inline-block;
     padding: 20px;
+
   }
   
   a {
-    text-decoration: none;
+    text-decoration:none ;
   }
   
   main {
@@ -42,10 +43,11 @@
   }
   
   footer {
-    background-color: whitesmoke;
+    background-color:#f6f6f6;
     text-align: center;
     width: 100%;
-    border: 2px solid gray;
+    border: 1px solid #9f9bac;
+    border-radius: 5px;
     padding: 20px;
     position: relative;
     top: 0px;
@@ -92,7 +94,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      border: 3px solid violet;
+      border: 3px solid #9f9bac;
       border-radius: 10px;
       padding: 10px;
       margin-top: 85px;
