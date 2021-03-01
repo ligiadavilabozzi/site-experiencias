@@ -23,12 +23,23 @@
   nav ul {
     list-style: none;
     margin: 0;
+    color: #897095
   }
-  
+
+  a:-webkit-any-link {
+    color: #897095 -webkit-link;
+    cursor: pointer;
+    color: #897095;
+  }
   nav li {
     display: inline-block;
     padding: 20px;
+    color: lightsalmon;
+    font-family: 'Courier New', Courier, monospace;
+  }
 
+  nav li:after{
+    content: " | ";
   }
   
   a {
@@ -54,6 +65,8 @@
     left: 0px;
     bottom: 0;
     right: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
   }
   
   img.banner {
@@ -94,7 +107,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      border: 3px solid #9f9bac;
+      border: 3px solid #856E90;
       border-radius: 10px;
       padding: 10px;
       margin-top: 85px;
@@ -116,3 +129,20 @@
         max-width: 100%;
     }
 
+.titulo-card{
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+  color: #897095;
+}
+
+.subtitulo-card{
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  color: #B5AABA;
+}
+
+h3 {
+font-size: small;
+font-family: 'Courier New', Courier, monospace;
+color: #B5AABA
+}

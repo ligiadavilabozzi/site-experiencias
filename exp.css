@@ -1,3 +1,131 @@
 .receitas{
-    max-width: 50%;
+    max-width: 25%;
+    align-items: center;
+    border: 1px solid #856E90  ;
+    border-radius: 10px;
+    padding:3px;
+    border-style:dotted;
+    }
+
+header {
+    text-align: center;
+    width: 100%;
+    border: 1px solid #9f9bac;
+    border-radius: 2px;
+    padding: 10px;
+    background-color:#f6f6f6;
+    position: fixed;
+    top:0;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    color: #897095
+  }
+
+  a:-webkit-any-link {
+    color: #897095 -webkit-link;
+    cursor: pointer;
+    color: #897095;
+  }
+  nav li {
+    display: inline-block;
+    padding: 20px;
+    color: lightsalmon;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  nav li:after{
+    content: " | ";
+  }
+  
+  a {
+    text-decoration:none ;
+  }
+  
+
+  .container1{
+    
+    display:flex;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+    }
+
+    @media(min-width:500px){
+        .texto{
+          margin-top: 42px;
+        }
+      }
+
+      .texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin-top: 85px;
+      }
+.titulo{
+    font-family: 'Courier New', Courier, monospace;
+    color: #735C7F; 
+    display:flex;
+    flex-wrap: wrap ;
+    max-height: 100% ;
+    margin-top:82px;
+    align-items: center;
+    align-content: center;
+    min-height: calc(100vh - 144px);
+
+
 }
+      h2{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: large;
+        color: #735C7F;
+        margin-bottom: 0.1em;
+        margin-top: 0.3em;
+ 
+      }
+
+     .itens{
+        font-family: 'Courier New', Courier, monospace;
+        color: #666267; 
+        margin-bottom: 2.0em;
+          margin-top: 0.3em;
+     }
+
+      p{
+          font-family: 'Courier New', Courier, monospace;
+          color: #666267;
+          line-height: 180%;
+          margin-bottom: 1.0em;
+          margin-top: 0em;
+      }
+
+ h3{font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #856E90;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+
+ }
+ @media(min-width:500px){
+    .titulo{
+      margin-top: 40px;
+    }
+  }
+      .card{
+        display: flex;
+        max-width: 300px;
+        height: 200px;
+        }
+        
+      .receitas{
+          max-width: 100%;
+      }
